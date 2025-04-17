@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>You’ve Been Hacked</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #0f0;
+      font-family: monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      max-width: 600px;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+    .button {
+      margin-top: 2rem;
+      background-color: #0f0;
+      color: #000;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #0c0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🛑 You’ve Been Hacked 🛑</h1>
+  <p>
+    Okay, not really. But if you’re not part of Geekulcha UWC yet, your tech future might *actually* be in danger.
+    <br><br>
+    We’re the official tech society at UWC — building CVs, hosting hackathons, doing outreach, and connecting students to real industry opportunities.
+  </p>
+  <a class="button" href="https://your-form-or-whatsapp-link" target="_blank">
+    Join Geekulcha UWC Now
+  </a>
+</body>
+</html>
